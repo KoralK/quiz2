@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-</head>
+   
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
 <body>
-    <div id="quiz-container">
-        <div id="question">Question text will go here</div>
-        <button id="option1" class="option"></button>
-        <button id="option2" class="option"></button>
-        <button id="option3" class="option"></button>
-        <button id="option4" class="option"></button>
-        <button id="next">Next Question</button>
-        <div id="result"></div>
+    
+    <div id="quiz-container" class="container text-center">
+        <h1 id="question" class="display-4 text-primary my-5"></h1>
+        <button id="option1" class="option btn btn-info btn-lg btn-block my-2"></button>
+        <button id="option2" class="option btn btn-info btn-lg btn-block my-2"></button>
+        <button id="option3" class="option btn btn-info btn-lg btn-block my-2"></button>
+        <button id="option4" class="option btn btn-info btn-lg btn-block my-2"></button>
+        <button id="next" class="btn btn-success btn-lg btn-block my-5">Next Question</button>
+        <div id="result" class="display-4 text-success"></div>
     </div>
+
     <script src="questions.json"></script>
     <script src="script.js"></script>
 </body>
