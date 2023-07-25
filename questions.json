@@ -1,0 +1,152 @@
+[
+    {
+        "question": "What is the German word for 'Hello'?",
+        "options": ["Hallo", "Guten Tag", "Auf Wiedersehen", "Danke"],
+        "answer": "Hallo"
+      },
+      {
+        "question": "What is the German word for 'Goodbye'?",
+        "options": ["Tschüss", "Bitte", "Ja", "Nein"],
+        "answer": "Tschüss"
+      },
+      {
+        "question": "What is the German word for 'Thank you'?",
+        "options": ["Bitte", "Danke", "Ja", "Nein"],
+        "answer": "Danke"
+      },
+      {
+        "question": "What is the German word for 'Yes'?",
+        "options": ["Ja", "Nein", "Bitte", "Danke"],
+        "answer": "Ja"
+      },
+      {
+        "question": "What is the German word for 'No'?",
+        "options": ["Nein", "Ja", "Bitte", "Danke"],
+        "answer": "Nein"
+      },
+      {
+        "question": "What is the German word for 'Please'?",
+        "options": ["Bitte", "Danke", "Ja", "Nein"],
+        "answer": "Bitte"
+      },
+      {
+        "question": "What is the German word for 'Good morning'?",
+        "options": ["Guten Morgen", "Guten Tag", "Gute Nacht", "Hallo"],
+        "answer": "Guten Morgen"
+      },
+      {
+        "question": "What is the German word for 'Good night'?",
+        "options": ["Gute Nacht", "Guten Morgen", "Guten Tag", "Hallo"],
+        "answer": "Gute Nacht"
+      },
+      {
+        "question": "What is the German word for 'Water'?",
+        "options": ["Wasser", "Brot", "Milch", "Apfel"],
+        "answer": "Wasser"
+      },
+      {
+        "question": "What is the German word for 'Bread'?",
+        "options": ["Brot", "Wasser", "Milch", "Apfel"],
+        "answer": "Brot"
+      },
+      {
+        "question": "What is the German word for 'Milk'?",
+        "options": ["Milch", "Wasser", "Brot", "Apfel"],
+        "answer": "Milch"
+      },
+      {
+        "question": "What is the German word for 'Apple'?",
+        "options": ["Apfel", "Wasser", "Brot", "Milch"],
+        "answer": "Apfel"
+      },
+      {
+        "question": "What is the German word for 'House'?",
+        "options": ["Haus", "Auto", "Buch", "Stuhl"],
+        "answer": "Haus"
+      },
+      {
+        "question": "What is the German word for 'Car'?",
+        "options": ["Auto", "Haus", "Buch", "Stuhl"],
+        "answer": "Auto"
+      },
+      {
+        "question": "What is the German word for 'Book'?",
+        "options": ["Buch", "Haus", "Auto", "Stuhl"],
+        "answer": "Buch"
+      },
+      {
+        "question": "What is the German word for 'Chair'?",
+        "options": ["Stuhl", "Haus", "Auto", "Buch"],
+        "answer": "Stuhl"
+      },
+      {
+        "question": "What is the German word for 'Man'?",
+        "options": ["Mann", "Frau", "Kind", "Hund"],
+        "answer": "Mann"
+      },
+      {
+        "question": "What is the German word for 'Woman'?",
+        "options": ["Frau", "Mann", "Kind", "Hund"],
+        "answer": "Frau"
+      },
+      {
+        "question": "What is the German word for 'Child'?",
+        "options": ["Kind", "Mann", "Frau", "Hund"],
+        "answer": "Kind"
+      },
+      {
+        "question": "What is the German word for 'Dog'?",
+        "options": ["Hund", "Mann", "Frau", "Kind"],
+        "answer": "Hund"
+      },
+      {
+        "question": "What is the German word for 'Cat'?",
+        "options": ["Katze", "Hund", "Maus", "Vogel"],
+        "answer": "Katze"
+      },
+      {
+        "question": "What is the German word for 'Mouse'?",
+        "options": ["Maus", "Katze", "Hund", "Vogel"],
+        "answer": "Maus"
+      },
+      {
+        "question": "What is the German word for 'Bird'?",
+        "options": ["Vogel", "Maus", "Katze", "Hund"],
+        "answer": "Vogel"
+      },
+      {
+        "question": "What is the German word for 'Food'?",
+        "options": ["Essen", "Trinken", "Laufen", "Schlafen"],
+        "answer": "Essen"
+      },
+      {
+        "question": "What is the German word for 'Drink'?",
+        "options": ["Trinken", "Essen", "Laufen", "Schlafen"],
+        "answer": "Trinken"
+      },
+      {
+        "question": "What is the German word for 'Run'?",
+        "options": ["Laufen", "Trinken", "Essen", "Schlafen"],
+        "answer": "Laufen"
+      },
+      {
+        "question": "What is the German word for 'Sleep'?",
+        "options": ["Schlafen", "Laufen", "Trinken", "Essen"],
+        "answer": "Schlafen"
+      },
+      {
+        "question": "What is the German word for 'Love'?",
+        "options": ["Liebe", "Freude", "Traurigkeit", "Wut"],
+        "answer": "Liebe"
+      },
+      {
+        "question": "What is the German word for 'Joy'?",
+        "options": ["Freude", "Liebe", "Traurigkeit", "Wut"],
+        "answer": "Freude"
+      },
+      {
+        "question": "What is the German word for 'Sadness'?",
+        "options": ["Traurigkeit", "Freude", "Liebe", "Wut"],
+        "answer": "Traurigkeit"
+      }
+]
