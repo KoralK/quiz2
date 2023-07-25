@@ -1,6 +1,7 @@
 let currentQuestion = 0;
 let score = 0;
 let questions = [];
+let answerSelected = false;
 
 function displayQuestion() {
     let question = questions[currentQuestion];
@@ -9,6 +10,7 @@ function displayQuestion() {
     document.getElementById('option2').innerText = question.options[1];
     document.getElementById('option3').innerText = question.options[2];
     document.getElementById('option4').innerText = question.options[3];
+    answerSelected = false;
 }
 
 function checkAnswer(answer) {
@@ -19,6 +21,7 @@ function checkAnswer(answer) {
     } else {
         document.getElementById('result').innerText = "Incorrect. The correct answer is " + question.answer;
     }
+    answerSelected = true;
     currentQuestion++;
     if (currentQuestion < questions.length) {
         displayQuestion();
@@ -38,6 +41,14 @@ document.getElementById('option3').addEventListener('click', function() {
 });
 document.getElementById('option4').addEventListener('click', function() {
     checkAnswer(document.getElementById('option4').innerText);
+});
+
+document.getElementById('next').addEventListener('click', function() {
+    if (!answerSelected) {
+        alert("Please select an answer before proceeding to the next question.");
+    } else {
+        displayQuestion();
+    }
 });
 
 fetch('questions.json')
